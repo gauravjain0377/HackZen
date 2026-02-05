@@ -8,7 +8,7 @@ const trackStreak = require("../middleware/trackStreak");
 const User = require('../model/UserModel');
 const RoleInvite = require('../model/RoleInviteModel');
 
-// Helper function to get frontend URL based on environment
+/** Returns frontend base URL for OAuth redirects (localhost in dev, FRONTEND_URL in production). */
 const getFrontendUrl = () => {
   if (process.env.NODE_ENV === 'production' || process.env.RENDER) {
     return process.env.FRONTEND_URL || 'https://hackzen.vercel.app';

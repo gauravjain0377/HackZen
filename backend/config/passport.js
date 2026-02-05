@@ -3,6 +3,11 @@ const GitHubStrategy = require('passport-github2').Strategy;
 const GoogleStrategy = require('passport-google-oauth20').Strategy;
 const User = require('../model/UserModel');
 
+// ---------------------------------------------------------------------------
+// OAuth strategies: GitHub and Google. Creates or links user, then passes
+// to session/JWT flow in userRoutes callbacks.
+// ---------------------------------------------------------------------------
+
 // GitHub Strategy
 passport.use(
   new GitHubStrategy(
