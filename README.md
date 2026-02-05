@@ -2,23 +2,23 @@
 
 **A full-stack hackathon management platform** — discover hackathons, form teams, submit projects, and manage events as organizers, judges, or participants.
 
-> **Note:** This is a **group project**. The original repository is owned by a teammate; this is my fork. My contributions are documented in the [My Contributions](#-my-contributions) section below.
+> **Note:** This is a **group project**. The original repository is owned by a teammate; this is my fork. My contributions are documented in the [My Contributions](#my-contributions) section below.
 
 ---
 
 ## Table of Contents
 
-- [Overview](#-overview)
-- [Screenshots](#-screenshots)
-- [Technologies Used](#-technologies-used)
-- [Features](#-features)
-- [My Contributions](#-my-contributions)
-- [Project Structure](#-project-structure)
-- [Getting Started](#-getting-started)
-- [Environment Variables](#-environment-variables)
-- [API Overview](#-api-overview)
-- [License](#-license)
-- [Author](#-author)
+- [Overview](#overview)
+- [Screenshots](#screenshots)
+- [Technologies Used](#technologies-used)
+- [Features](#features)
+- [My Contributions](#my-contributions)
+- [Project Structure](#project-structure)
+- [Getting Started](#getting-started)
+- [Environment Variables](#environment-variables)
+- [API Overview](#api-overview)
+- [License](#license)
+- [Author](#author)
 
 ---
 
