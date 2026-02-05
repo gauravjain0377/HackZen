@@ -18,6 +18,7 @@
 - [Environment Variables](#-environment-variables)
 - [API Overview](#-api-overview)
 - [License](#-license)
+- [Author](#-author)
 
 ---
 
@@ -36,27 +37,41 @@ The app uses a **REST API** backend with **JWT** and **OAuth** (GitHub, Google) 
 
 ## Screenshots
 
-*Add your own screenshots to `docs/screenshots/` (see [docs/screenshots/README.md](docs/screenshots/README.md)). Below are placeholder sections — replace the paths once you add images.*
+### Featured — Landing Page
 
-### Landing & Auth
+<p align="center">
+  <img src="docs/screenshots/landing.png" alt="HackZen Landing Page" width="900"/>
+</p>
 
-| Landing Page | Login (Email + GitHub / Google) |
-|--------------|----------------------------------|
-| ![Landing](docs/screenshots/landing.png) | ![Login](docs/screenshots/login.png) |
+*First impression: HackZen landing page.*
 
-### Dashboard & Hackathons
+---
 
-| User Dashboard | Explore Hackathons |
-|----------------|--------------------|
-| ![Dashboard](docs/screenshots/dashboard.png) | ![Hackathons](docs/screenshots/hackathon-list.png) |
+### Auth & Discovery
 
-### Profile & Admin (optional)
+| Login (Email + GitHub / Google) | User Dashboard |
+|----------------------------------|----------------|
+| <img src="docs/screenshots/login.png" alt="Login" width="400"/> | <img src="docs/screenshots/dashboard.png" alt="Dashboard" width="400"/> |
 
-| Profile | Admin Panel |
-|---------|-------------|
-|  ![Admin](docs/screenshots/admin-dashboard.png) |
+| Explore Hackathons | Hackathon Detail |
+|--------------------|------------------|
+| <img src="docs/screenshots/hackathon-list.png" alt="Hackathon list" width="400"/> | <img src="docs/screenshots/hackathon-detail.png" alt="Hackathon detail" width="400"/> |
 
-*If an image is missing, add the file to `docs/screenshots/` with the name shown (e.g. `landing.png`, `login.png`).*
+---
+
+### Admin Panel
+
+<p align="center">
+  <img src="docs/screenshots/admin-dashboard.png" alt="Admin Dashboard" width="800"/>
+</p>
+
+---
+
+### Organizer & Judge panels
+
+| Organizer Dashboard | Judge Panel |
+|---------------------|-------------|
+| <img src="docs/screenshots/organizer-dashboard.png" alt="Organizer dashboard" width="400"/> | <img src="docs/screenshots/judge-panel.png" alt="Judge panel" width="400"/> |
 
 ---
 
@@ -276,5 +291,18 @@ All protected routes use the `Authorization: Bearer <token>` header.
 ## License
 
 This is a group project; credit the team and original repository owner when sharing or forking.
+
+---
+
+## Author
+
+**Gaurav Jain**
+
+| | |
+|--|--|
+| **Portfolio** | [gauravjain.tech](https://www.gauravjain.tech/) |
+| **GitHub** | [@gauravjain0377](https://github.com/gauravjain0377) |
+| **LinkedIn** | [Gaurav Jain](https://www.linkedin.com/in/this-is-gaurav-jain/) |
+| **Twitter / X** | [@gauravjain0377](https://x.com/gauravjain0377) |
 
 ---
